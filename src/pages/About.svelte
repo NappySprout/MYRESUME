@@ -16,6 +16,9 @@
         <p>{content} 
             <span class="interact" on:mouseenter={handleEnter} on:mouseleave={handleLeave}>"Computer Science"</span>
         </p>
+        <p>
+            My <a href="https://www.linkedin.com/in/darie-chan-rong-zhi-4301a9207/">Linkedin</a> and my <a href ="https://github.com/NappySprout">Github</a>
+        </p>
     </div>
 </main>
 
@@ -26,7 +29,7 @@
 
     p {
         font-size: 1.5em;
-        padding:2em;
+        padding:2em auto 1.7em;
     }
 
 
