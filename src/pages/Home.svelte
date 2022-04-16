@@ -6,7 +6,7 @@
 
 	<main in:fly="{{ y: 50, duration: 500, delay: 400 }}" out:fly="{{ y: 50, duration: 500 }}">
 		<Breathe text="Hello World" padding="5em"/>
-		<div class="fixed"><p class="fade2000 pop">Personal site of Darie Chan Rong Zhi</p></div>
+		<div class="fixed"><p class="fade2000 pop">Personal Svelte site of Darie Chan Rong Zhi</p></div>
 	</main>
 
 <style>
