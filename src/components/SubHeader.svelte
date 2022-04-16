@@ -24,8 +24,8 @@
     export let el; 
 </script>
 <h2 class:hidden bind:this={el}>
-    {#if url}
-    <a href="url" >{text}</a>
+    {#if url }
+    <a href={url} >{text}</a>
     {:else}
     {text}
     {/if}
